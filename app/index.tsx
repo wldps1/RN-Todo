@@ -127,7 +127,7 @@ export default function Index() {
           )}
         {!item.childrenYn && (
           <TouchableOpacity onPress={() => addSubTodo(item.id)}>
-            <Icon name="subdirectory_arrow_right" size={20} color="green" />
+            <Icon name="addr" size={20} color="green" />
           </TouchableOpacity>
         )}
         <TouchableOpacity onPress={() => deleteTodo(item.id)}>
